@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0;
+	margin: 0;
+}
+
+#game{
+	margin-left: 100px;
+	width:400px;
+	height:600px;
+	border: 1px solid #000000;
+	overflow: hidden;
+}
+
+#game .go{
+	width:100%;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	font-size: 50px;
+	font-weight: bolder;
+	border-bottom: 1px solid #000000;
+}
+
+#game .main{
+	position: relative;
+	width:100%;
+	height: 100%;
+}
+
+#game .row{
+	height:25%;
+	width: 100%;
+	font-size:0;
+}
+
+#game .col{
+	box-sizing:border-box;
+	display: inline-block;
+	width: 25%;
+	height: 100%;
+	border:1px solid #000000;
+}
+
+#game .col.target{
+	background-color: #000000;
+}
